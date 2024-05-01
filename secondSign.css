@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Handlee',cursive;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color:skyblue; */
+    display: flex;
+}
+#left{
+    width: 30%;
+    height:100%;
+    /* background-color: orangered; */
+}
+#left h2{
+    position: absolute;
+    color: white;
+    font-family: 'satisfy',cursive;
+    font-size: 5vh;
+    font-weight: 100;
+    padding: 3vh;
+    transform: rotate(-10deg);
+}
+#left video{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+#right{  
+    width: 45%;
+    padding: 5vh;
+    margin: 10vh;
+    margin-left: 25vh;
+    margin-top: 4vh;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}   
+#firstDiv{
+    align-items: center;
+    display: flex;
+    margin-top: 5vh;
+    position: relative;
+    font-size: 3vh;
+    gap: 2vh;
+}
+#right h2{
+    font-size: 5vh;
+}
+#secondDiv{
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+label{
+    font-weight: 700;
+    font-size: 2.5vh;
+}
+input[type]{
+    background-color: #dadadaa9;
+    transition:0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) ;
+    border-color: transparent;
+    outline-color: transparent;
+    border-radius: 1vh;
+    font-weight: 900;
+    width: 50%;
+    height: 6vh;
+    font-family: 'Handlee',cursive;
+}
+#thirdDiv{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7vh;
+    gap: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 2.5vh;
+    font-family: 'Handlee',cursive;
+    border-radius: 10vh;
+    width: 10vw;
+    transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    height: 3vw;
+}
+span{
+    text-decoration: underline;
+}
+a{
+    font-weight: 600;
+    color: rgb(0, 47, 255);
+}
+button:hover{
+    box-shadow: 0px 2px 8px #08080877
+}
+
+input[type]:hover{
+    box-shadow: 0px 2px 8px #08080877
+}
