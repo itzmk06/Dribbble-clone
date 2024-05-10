@@ -233,7 +233,7 @@ const tlPromo = gsap.timeline({
         trigger: "#promo",
         start: "top 90%",
         end: "bottom 10%",
-        scrub: true
+        scrub: 5
     }
 });
 

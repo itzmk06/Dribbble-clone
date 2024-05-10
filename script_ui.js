@@ -628,3 +628,23 @@ var firstDrop = document.getElementById("firstDrop");
 
 
 
+    var controller = new ScrollMagic.Controller();
+
+// Select all anchor links with hash (#) href attribute
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    // Add smooth scrolling behavior to each anchor link
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault(); // Prevent default anchor behavior
+
+        // Get the target section's ID from the anchor's href attribute
+        const targetId = this.getAttribute('href').substring(1);
+        const targetSection = document.getElementById(targetId);
+
+        // Scroll smoothly to the target section
+        if (targetSection) {
+            targetSection.scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+    });
+});

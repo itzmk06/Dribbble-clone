@@ -98,7 +98,7 @@ creators.forEach((creator, index) => {
             trigger: creator,
             start: "top 120%",
             end: "bottom 20%",
-            scrub: true,
+            scrub: 5,
             toggleActions: "restart none none none"
         }
     });
@@ -114,9 +114,9 @@ images.forEach((image, index) => {
         ease: "power4.out",
         scrollTrigger: {
             trigger: image,
-            start: "top 80%",
+            start: "top 95%",
             end: "bottom 20%",
-            scrub: true,
+            scrub: 5,
             toggleActions: "restart none none none"
         }
     });
@@ -136,7 +136,7 @@ buttons.forEach((button, index) => {
             trigger: button,
             start: "top 290%",
             end: "bottom 20%",
-            scrub: true,
+            scrub: 5,
             toggleActions: "restart none none none"
         }
     });
@@ -160,7 +160,7 @@ elements.forEach((element, index) => {
             trigger: element,
             start: "top 80%",
             end: "bottom 20%",
-            scrub: true,
+            scrub: 5,
             toggleActions: "restart none none none"
         }
     });

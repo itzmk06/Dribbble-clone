@@ -9,6 +9,7 @@ html,body{
     height: 100%;
     font-weight: 900;
     font-family: "Josefin Slab", serif;
+    scroll-behavior: smooth;
 }
 #main{
     padding: 0.01vh;
