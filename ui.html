@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UX Design Diploma | Dribbble</title>
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
     <link rel="stylesheet" href="ui.css">
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,24 +25,24 @@
     <div id="main">
         <div id="nav">
             <div id="nav1">
-                <h2>Dribbble</h2>
+                <h2 onclick="window.location.href='home.html'">Dribbble</h2>
                 <select id="firstDrop">
                     <option value="" selected disabled hidden>Find designers</option>
-                    <option value="designer">
+                    <option value="searchDesigners">
                         <h1>Designer Search</h1>
-                    </option>                    
-                    <option value="job">
+                    </option>
+                    <option value="jobs">
                         <h1>Post a Job</h1>
                     </option>
                 </select>
-                <h3>Inspiration</h3>
+                <h3 onclick="window.location.href='inspiration.html'">Inspiration</h3>
                 <select name="course" id="course">
                     <option value="" selected disabled hidden>Courses</option>
-                    <option value="diploma">UX Diploma</option>
-                    <option value="diploma">UX Certificate</option>
-                    <option value="diploma">Live Interactive workshops</option>
+                    <option value="ui">UX Diploma</option>
+                    <option value="ui">UX Certificate</option>
+                    <option value="ui">Live Interactive workshops</option>
                 </select>
-                <h3>Jobs</h3>
+                <h3 onclick="window.location.href='jobs.html'">Jobs</h3>
                 <h3>GoPro</h3>
             </div>
             <div id="nav2">
@@ -188,7 +190,21 @@
             </div>
         </div>
         <div id="marque">
-            <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">
+           
+            <div class="marque1">
+                <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/15466/15466027.png" alt="">
+                <img  style="width: 15vh;height: 10vh;" src="https://imgs.search.brave.com/POHiEK0fSQNcJ1jJ2YsmCWEj32fz11pvDdp1uOILHIk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL2FpcmJuYi1s/b2dvLXBuZy1haXJi/bmItbG9nby0xNjAw/LnBuZw " alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/1409/1409941.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/15466/15466027.png" alt="">
+                <img  style="width: 15vh;height: 10vh;" src="https://imgs.search.brave.com/POHiEK0fSQNcJ1jJ2YsmCWEj32fz11pvDdp1uOILHIk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL2FpcmJuYi1s/b2dvLXBuZy1haXJi/bmItbG9nby0xNjAw/LnBuZw " alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/128/1409/1409941.png" alt="">
+            </div>
+            <div class="marque1">
+                <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">
             <img src="https://cdn-icons-png.flaticon.com/128/15466/15466027.png" alt="">
             <img  style="width: 15vh;height: 10vh;" src="https://imgs.search.brave.com/POHiEK0fSQNcJ1jJ2YsmCWEj32fz11pvDdp1uOILHIk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL2FpcmJuYi1s/b2dvLXBuZy1haXJi/bmItbG9nby0xNjAw/LnBuZw " alt="">
             <img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" alt="">
@@ -198,17 +214,8 @@
             <img  style="width: 15vh;height: 10vh;" src="https://imgs.search.brave.com/POHiEK0fSQNcJ1jJ2YsmCWEj32fz11pvDdp1uOILHIk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL2FpcmJuYi1s/b2dvLXBuZy1haXJi/bmItbG9nby0xNjAw/LnBuZw " alt="">
             <img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" alt="">
             <img src="https://cdn-icons-png.flaticon.com/128/1409/1409941.png" alt="">
-            <img src="https://cdn-icons-png.flaticon.com/128/6033/6033716.png" alt=""><img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">
-            <img src="https://cdn-icons-png.flaticon.com/128/15466/15466027.png" alt="">
-            <img  style="width: 15vh;height: 10vh;" src="https://imgs.search.brave.com/POHiEK0fSQNcJ1jJ2YsmCWEj32fz11pvDdp1uOILHIk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL2FpcmJuYi1s/b2dvLXBuZy1haXJi/bmItbG9nby0xNjAw/LnBuZw " alt="">
-            <img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" alt="">
-            <img src="https://cdn-icons-png.flaticon.com/128/1409/1409941.png" alt="">
-            <img src="https://cdn-icons-png.flaticon.com/128/300/300221.png" alt="">
-            <img src="https://cdn-icons-png.flaticon.com/128/15466/15466027.png" alt="">
-            <img  style="width: 15vh;height: 10vh;" src="https://imgs.search.brave.com/POHiEK0fSQNcJ1jJ2YsmCWEj32fz11pvDdp1uOILHIk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL2FpcmJuYi1s/b2dvLXBuZy1haXJi/bmItbG9nby0xNjAw/LnBuZw " alt="">
-            <img src="https://cdn-icons-png.flaticon.com/128/732/732221.png" alt="">
-            <img src="https://cdn-icons-png.flaticon.com/128/1409/1409941.png" alt="">
-            <img src="https://cdn-icons-png.flaticon.com/128/6033/6033716.png" alt="">
+            </div>
+        
         </div>
         <div id="users">
             <div class="detail">

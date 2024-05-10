@@ -109,3 +109,6 @@ button:hover{
 input[type]:hover{
     box-shadow: 0px 2px 8px #08080877
 }
+button{
+    cursor: pointer;
+}

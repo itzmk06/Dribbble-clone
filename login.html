@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In | Dribbble</title>
+    <link rel="icon" type="image/svg+xml" href="logo.svg">
     <link rel="stylesheet" href="style1.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +27,7 @@
         </div>
         <div id="right">
             <h2>Sign in to Dribbble</h2>
-            <button id="gbutton"><img id="google" src="google.png" alt="" srcset="">Sign in with Google</button>
+            <button id="gbutton" onclick="window.location.href='login.html'"><img id="google" src="google.png" alt="" srcset="">Sign in with Google</button>
             <hr id="hr1">
             <hr id="hr2">
             <h4> or sign in with email</h4>
@@ -34,8 +35,8 @@
             <input type="text" name="username" id="username">
             <label for="pass" id="passId">Password</label>
             <input type="password" name="pass" id="pass">
-            <button id="sign">Sign in</button>
-            <h4>Don't have an account? <a href="">Sign up</a></h4>
+            <button id="sign" onclick="window.location.href='home.html'">Sign in</button>
+            <h4>Don't have an account? <a href="sign_up.html">Sign up</a></h4>
         </div>
     </div>
 

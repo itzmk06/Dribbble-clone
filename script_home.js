@@ -156,7 +156,19 @@ gsap.from("#getPro", {
     }
 });
 
-
-
+var firstDrop = document.getElementById("firstDrop");
+    firstDrop.addEventListener("change", function() {
+        var selectedOption = this.value;
+        if (selectedOption) {
+            window.location.href = selectedOption + ".html";
+        }
+    });
+    var courseDropdown = document.getElementById("course");
+    courseDropdown.addEventListener("change", function() {
+        var selectedOption = this.value;
+        if (selectedOption) {
+            window.location.href = selectedOption + ".html";
+        }
+    });
 
 

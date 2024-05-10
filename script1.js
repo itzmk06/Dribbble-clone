@@ -287,3 +287,5 @@ inputsAnimation.from("input[type='text'], input[type='email'], input[type='passw
     scale: 1,
     stagger: 0.1
 });
+
+

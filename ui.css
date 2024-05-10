@@ -465,19 +465,38 @@ select{
     font-size: 2.5vh;
 }
 #marque{
+    margin-top: -37vh;
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    flex-wrap: nowrap;
+    /* background-color: orange; */
+    overflow-x: auto;
+}
+.marque1{
     animation-name: mar;
-    animation-duration:50s;
+    animation-duration:20s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-delay: 0s;
     transition: all linear ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1);
-    position: relative;
-    margin: 10vh;
-    margin-top: -30vh;
+    justify-content: center;
     display: flex;
-    gap: 10vh;
-    left: 10%;
+    align-items: center;
+    flex-direction: row;
+    gap: 20vh;
+    margin-left: 20vh;
 }
+.marque1 img{
+    width: 10vh;
+}
+#marque::-webkit-scrollbar{
+    display: none;
+}
+.marque img{
+    flex-shrink: 0;
+}
+
 @keyframes mar{
     from{
         transform: translate(0%);
@@ -486,15 +505,11 @@ select{
         transform: translate(calc(-100% - 20vh));
     }
 }
-#marque img{
-    flex-shrink: 0;
-    width: 10vh;
-    height: 10vh;
-    display: flex;
+
+#marque::-webkit-scrollbar{
+    display: transparent;
 }
-#marquee::-webkit-scrollbar{
-    display: none;
-}
+
 #users{
     margin-top: 5vh;
     display: flex;

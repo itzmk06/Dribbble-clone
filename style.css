@@ -542,3 +542,6 @@ a{
     font-weight: 600;
     color: rgb(0, 47, 255);
 }
+button{
+    cursor: pointer;
+}
