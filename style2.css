@@ -71,6 +71,7 @@ html,body{
     border: none;
     font-family: 'Handlee',cursive;
     font-weight: 900;
+    font-size: 2.5vh;
     transition: 0.5s;
 }
 #gbutton:hover{
@@ -79,6 +80,7 @@ html,body{
 #or{
     margin-top: 3vh;
     transform: translateX(50%);
+    font-size: 3vh;
 }
 #con{
     position: relative;
@@ -93,6 +95,7 @@ html,body{
     transform: translateX(105%);
     font-family: 'Handlee',cursive;
     border-radius: 10vh;
+    font-size: 2.5vh;
     transform: 0.5s;
 }
 #con:hover{
@@ -103,10 +106,12 @@ html,body{
     text-align: center;
     margin-top: 4vh;
     width: 67%;
+    font-size: 2.5vh;
 }
 h4{
+    font-size: 3vh;
     margin-top: 8vh;
-    transform: translateX(35%);
+    transform: translateX(30%);
 }
 span{
     gap: 1vh;

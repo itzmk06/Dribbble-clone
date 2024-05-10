@@ -465,6 +465,12 @@ select{
     font-size: 2.5vh;
 }
 #marque{
+    animation-name: mar;
+    animation-duration:50s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    transition: all linear ease-in-out cubic-bezier(0.075, 0.82, 0.165, 1);
     position: relative;
     margin: 10vh;
     margin-top: -30vh;
@@ -472,10 +478,22 @@ select{
     gap: 10vh;
     left: 10%;
 }
+@keyframes mar{
+    from{
+        transform: translate(0%);
+    }
+    to{
+        transform: translate(calc(-100% - 20vh));
+    }
+}
 #marque img{
+    flex-shrink: 0;
     width: 10vh;
     height: 10vh;
     display: flex;
+}
+#marquee::-webkit-scrollbar{
+    display: none;
 }
 #users{
     margin-top: 5vh;

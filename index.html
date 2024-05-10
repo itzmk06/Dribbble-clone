@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Dribbble</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Rock+Salt&family=Sacramento&family=Sedgwick+Ave+Display&family=Zeyada&display=swap" rel="stylesheet">
@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Merienda:wght@300..900&family=Righteous&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Merienda:wght@300..900&family=Righteous&family=Sacramento&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
+
 </head>
 <body>
     <div id="main">
@@ -46,62 +48,63 @@
     </div>
     <div id="videoScroll">
         <div class="elem">
-            <img src="https://i.pinimg.com/564x/f0/38/0e/f0380e575135992e1925fdf4c7242a29.jpg" alt="">
+            <img class="elemImg" src="https://i.pinimg.com/564x/f0/38/0e/f0380e575135992e1925fdf4c7242a29.jpg" alt="">
             <div class="overlay2">
                 <h5>Sisoo 1</h5>
                 <h5>Web Developer</h5>
             </div>
         </div>
         <div class="elem">
-            <img src="https://i.pinimg.com/564x/d5/2a/df/d52adfc6839c7961acd0db2d23724738.jpg" alt=""> 
+            <img class="elemImg" src="https://i.pinimg.com/564x/d5/2a/df/d52adfc6839c7961acd0db2d23724738.jpg" alt=""> 
             <div class="overlay2">
                 <h5>Sisoo 2</h5>
                 <h5>Full Stack Developer</h5>
             </div>
         </div>
         <div class="elem">
-            <img src="https://i.pinimg.com/564x/17/5f/3d/175f3d5163d27e41cf5663169713725d.jpg" alt="">
+            <img class="elemImg" src="https://i.pinimg.com/564x/17/5f/3d/175f3d5163d27e41cf5663169713725d.jpg" alt="">
             <div class="overlay2">
                 <h5>Sisoo 3</h5>
                 <h5>Product Manager</h5>
             </div>
         </div>
         <div class="elem">
-            <img src="https://i.pinimg.com/564x/d5/f3/c0/d5f3c0d4b4abba1c3fab1858eda73f5a.jpg" alt="">
+            <img class="elemImg" src="https://i.pinimg.com/564x/d5/f3/c0/d5f3c0d4b4abba1c3fab1858eda73f5a.jpg" alt="">
             <div class="overlay2">
                 <h5>Bro 1</h5>
                 <h5>Software Architect</h5>
             </div>
         </div>
         <div class="elem">
-            <img src="https://i.pinimg.com/564x/af/93/8f/af938f8571abbd910a02db38b19a4c1a.jpg" alt="" id="pic2">
+            <img class="elemImg" src="https://i.pinimg.com/564x/af/93/8f/af938f8571abbd910a02db38b19a4c1a.jpg" alt="" id="pic2">
             <div class="overlay2">
                 <h5>Sisoo 4</h5>
                 <h5>Performance Engineer</h5>
             </div>
         </div>
         <div class="elem">
-            <img src="https://i.pinimg.com/564x/7d/42/ad/7d42adc32af2ac0262c691b79d677b09.jpg" alt="">
+            <img class="elemImg" src="https://i.pinimg.com/564x/7d/42/ad/7d42adc32af2ac0262c691b79d677b09.jpg" alt="">
             <div class="overlay2">
                 <h5>Sisoo 5</h5>
                 <h5>UI/UX designer</h5>
             </div>
         </div>
         <div class="elem">
-            <img src="https://i.pinimg.com/564x/6a/09/1a/6a091a7d7dc18ac26d8b5ee06238f4fe.jpg" alt="">
+            <img class="elemImg" src="https://i.pinimg.com/564x/6a/09/1a/6a091a7d7dc18ac26d8b5ee06238f4fe.jpg" alt="">
             <div class="overlay2">
                 <h5>Bro 2</h5>
                 <h5>Frontend Architect</h5>
             </div>
         </div>
         <div class="elem">
-            <img src="https://i.pinimg.com/564x/c7/e4/27/c7e4277a30a3bde1e8108ce3d479481d.jpg" alt="" id="pic1">
+            <img class="elemImg" src="https://i.pinimg.com/564x/c7/e4/27/c7e4277a30a3bde1e8108ce3d479481d.jpg" alt="" id="pic1">
             <div class="overlay2">
                 <h5>Sisoo 6</h5>
                 <h5>Frontend Engineer</h5>
             </div>
         </div>
     </div>
+    
     <div id="content1">
         <h2 id="heading">Explore inspiring designs</h2>
         <div class="block">
@@ -297,6 +300,8 @@
             </div>
         </div>
     </div>   
+
+    
     <div id="add"></div>
     <button id="signC">Sign up to Continue</button>
     <div id="page1">
@@ -355,5 +360,12 @@
         <h3>Careers</h3>
         <h3>Support</h3>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+    <script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script1.js"></script>
 </body>
 </html>

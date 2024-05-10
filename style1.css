@@ -9,6 +9,7 @@ html,body{
     overflow-y: hidden;
     font-weight: 900;
     font-family: "Josefin Slab", serif;
+    overflow: hidden;
 }
 #main{
     width: 100%;
