@@ -7,7 +7,8 @@ html,body{
     /* overflow: hidden; */
     width: 100%;
     height: 100%;
-    font-family: "Handlee", cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
     /* background-color: rebeccapurple; */
     /* overflow-x: hidden; */
 }
@@ -64,7 +65,8 @@ html,body{
 #searchText{
     font-size: 1.2vw;
     font-weight: 900;
-    font-family: 'Handlee',cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
     align-self:center ;
     margin-left: -2vh;
     outline: transparent;
@@ -87,7 +89,8 @@ html,body{
 #firstDrop{
     border-radius: 1vh;
     font-weight: 900;
-    font-family: 'Handlee',cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
     outline: transparent;
     border-color: transparent;
     height: 4vh;
@@ -96,14 +99,16 @@ html,body{
 option{
     font-weight: 900;
     font-size: 2.1vh;
-    font-family: 'Handlee',cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
     background-color: white;
 }
 
 #course{
     border-radius: 1vh;
     font-weight: 900;
-    font-family: 'Handlee',cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
     outline: transparent;
     border-color: transparent;
     height: 4vh;
@@ -113,7 +118,8 @@ select{
     font-weight: 900;
     background-color: white;
     font-size: 2.3vh;
-    font-family: 'Handlee',cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
 }
 #content{
     margin: 0 auto;
@@ -222,7 +228,8 @@ button{
     color: white;
     border: transparent;
     outline: transparent;
-    font-family: 'Handlee',cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
     font-size: 3vh;
 }
 #tag{

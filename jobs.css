@@ -1,0 +1,171 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100%;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+    overflow: hidden;
+}
+#main{
+    padding: 0.01vh;
+    width: 100%;
+    height:100%;
+    /* background-color: aqua; */
+}
+#nav{
+    font-size: 2.1vh;
+    margin: 2vh;
+    margin-left: 5vh;
+    padding: 1vh;
+    justify-content: space-between;
+    display: flex;
+    width: 95%;
+    height: 4vw;
+    /* background-color: orange; */
+}
+#nav1{
+    gap: 3.5vw;
+    padding: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#nav1 h2{
+    font-weight: 600;
+    margin: -0.5vw;
+    margin-top: 0.5vh;
+    font-size: 2.5vw;
+    font-family: 'satisfy',cursive;
+}
+#nav2{
+    display: flex;
+    gap: 3vw;
+    margin-right: 2vw;
+}
+#search{
+    width: 3vh;
+    height: auto;
+    margin: 2vh;
+}
+#searchBox{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+    background-color: white;
+}
+#searchText{
+    font-size: 1.2vw;
+    font-weight: 900;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+    align-self:center ;
+    margin-left: -2vh;
+    outline: transparent;
+    border-color:transparent;
+    padding: 2vh;
+    border-radius: 1vw;
+    width: 20vw;
+    height: 4vh;
+    position: relative;
+    justify-content: center;
+    background-color: transparent;
+}
+#user img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#firstDrop{
+    border-radius: 1vh;
+    font-weight: 900;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+    outline: transparent;
+    border-color: transparent;
+    height: 4vh;
+    width: 10vw;
+}
+option{
+    font-weight: 900;
+    font-size: 2.1vh;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+    background-color: white;
+}
+
+#course{
+    border-radius: 1vh;
+    font-weight: 900;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+    outline: transparent;
+    border-color: transparent;
+    height: 4vh;
+    width: 14vw;
+}
+select{
+    font-weight: 900;
+    background-color: white;
+    font-size: 2.3vh;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+}
+#nav-part2{
+    align-items: center;
+    gap: 2vw;
+    display: flex;
+    margin-top: 7vh;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 80%;
+    height: 6vh;
+    /* background-color: greenyellow; */
+}
+#homeContent{
+    height: 70%;
+    padding: 0.1vh;
+    margin-top: 20vh;
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:1vh;
+    justify-content: top;
+    align-items: center;
+    position: relative;
+}
+#homeContent h1{
+    font-size: 5vw;
+    line-height: 10vh;
+}
+#homeContent h4{
+    font-size: 4vh;
+}
+#keepDown{
+    margin-top: 5vh;
+}
+#homeContent button{
+    background-color:black;
+    color: white;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 10vh;
+    font-family: "Josefin Slab", serif;
+    font-weight: 900;
+    font-size: 1.2vw;
+    margin-top: 5vh;
+}
+#secondPage{
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+}

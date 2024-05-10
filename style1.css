@@ -6,8 +6,9 @@
 html,body{
     width: 100%;
     height: 100%;
-    font-family: "Handlee", cursive;
     overflow-y: hidden;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
 }
 #main{
     width: 100%;
@@ -71,7 +72,8 @@ html,body{
     font-size: 2.5vh;
     font-weight: 600;
     gap: 1vh;
-    font-family: 'Handlee',cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
     justify-content: center;
     width: 60vh;
     height: 7vh;
@@ -108,7 +110,8 @@ label{
 input[type]{
     background-color: #dadadaa4;
     font-weight: 600;
-    font-family: 'Handlee',cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
     outline: transparent;
     border-color: transparent;
     margin-left: 20%;

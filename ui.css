@@ -1,0 +1,672 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    /* overflow: hidden; */
+    width: 100%;
+    height: 100%;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+}
+#main{
+    padding: 0.01vh;
+    width: 100%;
+    height:100%;
+    /* background-color: aqua; */
+}
+#nav{
+    font-size: 2.1vh;
+    margin: 2vh;
+    margin-left: 5vh;
+    padding: 1vh;
+    justify-content: space-between;
+    display: flex;
+    width: 95%;
+    height: 4vw;
+    /* background-color: orange; */
+}
+#nav1{
+    gap: 3.5vw;
+    padding: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#nav1 h2{
+    font-weight: 600;
+    margin: -0.5vw;
+    margin-top: 0.5vh;
+    font-size: 2.5vw;
+    font-family: 'satisfy',cursive;
+}
+#home #nav-home h2{
+    font-weight: 600;
+    margin: -0.5vw;
+    margin-top: 0.5vh;
+    font-size: 2vw;
+    font-family: 'satisfy',cursive;
+}
+#nav2{
+    display: flex;
+    gap: 3vw;
+    margin-right: 2vw;
+}
+#search{
+    width: 3vh;
+    height: auto;
+    margin: 2vh;
+}
+#searchBox{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+    background-color: white;
+}
+#searchText{
+    font-size: 1.2vw;
+    font-weight: 900;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+    align-self:center ;
+    margin-left: -2vh;
+    outline: transparent;
+    border-color:transparent;
+    padding: 2vh;
+    border-radius: 1vw;
+    width: 20vw;
+    height: 4vh;
+    position: relative;
+    justify-content: center;
+    background-color: transparent;
+}
+#user img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+#firstDrop{
+    border-radius: 1vh;
+    font-weight: 900;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+    outline: transparent;
+    border-color: transparent;
+    height: 4vh;
+    width: 10vw;
+}
+option{
+    font-weight: 900;
+    font-size: 2.1vh;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+    background-color: white;
+}
+
+#course{
+    border-radius: 1vh;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+    outline: transparent;
+    border-color: transparent;
+    height: 4vh;
+    width: 15vw;
+}
+select{
+    font-weight: 900;
+    background-color: white;
+    font-size: 2.3vh;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
+}
+#nav-part2{
+    align-items: center;
+    gap: 2vw;
+    display: flex;
+    margin-top: 7vh;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 80%;
+    height: 6vh;
+    /* background-color: greenyellow; */
+}
+#home{
+    margin-top: 3vh;
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    /* background-color: skyblue; */
+}
+#nav-home{
+    /* background-color: orange; */
+    position: relative;
+    margin: 2vh;
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+#second-content{
+    margin: 0 auto;
+    display: flex;
+    /* background-color: orangered; */
+    align-items: center;
+    justify-content: center;
+    gap: 20vh;
+    
+}
+#second-content #img-content video{
+    width: 70vh;
+    border-radius: 5vh;
+    object-position: center;
+    object-fit: cover;
+    height: 50vh;
+    box-shadow: 10px 10px 10px rgba(45, 109, 248, 0.288);
+    /* background-color: blue; */
+}
+#design{
+    margin-top: 0.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#textContent{
+    margin-top: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#textContent h1{
+    font-size: 7vh;
+    line-height: 8vh;
+    /* background-color: green; */
+}
+#textContent h4{
+    line-height: 4vh;
+    font-size: 3vh;
+}
+#percentage{
+    margin-top:3vh ;
+    display: flex;
+    gap: 20vh;
+}
+#second-content button{
+    width: 25vh;
+    margin-top: 4vh;
+    background-color: #FF70AB;
+    height: 8vh;
+    color: white;
+    border: transparent;
+    outline: white;
+    border-radius: 10vh;
+    font-family: "Josefin Slab", serif;
+    font-weight: 900;
+    font-size: 2.5vh;
+}
+#h4text{
+    margin-top: 3vh;
+}
+#img-small img{
+    margin-top: 5vh;
+    width: 5vh;
+    height: 5vh;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10vh;
+}
+#percentage h3{
+    color: rgb(4, 0, 255);
+}
+#wrapper{
+    margin-top: 2vh;
+    display: flex;
+    gap: 4vh;
+}
+.make-small{
+    font-size: 2vh;
+    color: gold;
+}
+#third-content{
+    display: flex;
+    gap: 20vh;
+    margin-top: 5vh;
+    margin-bottom: 30vh;
+}
+.box{
+    position: relative;
+    display: flex;
+    left: 6%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    position: relative;
+    display: flex;
+    left: 6%;
+    bottom: 4.5vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5vh;
+}
+.box::after{
+    content:"";
+    border-right:2px solid rgba(0, 0, 0, 0.178);
+    width: 10px;
+    height: 10vh;
+    position: relative;
+    left: 140%;
+    top: -40%;
+}
+.box::-webkit-scrollbar{
+    display: none;
+}
+#third-content h4{
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+#third-content h5{
+    margin-top: 2vh;
+}
+#outcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+#outcome::after{
+    border-right: 0px solid white;
+}
+#fourth-content{
+    width: 100%;
+    height: 40vh;
+    margin-top: -30vh;
+    /* background-color: skyblue; */
+    display: flex;
+    gap: 3vh;
+}
+#format::after{
+    content:"";
+    border-right:2px solid rgba(0, 0, 0, 0.178);
+    width: 10px;
+    height: 10vh;
+    position: relative;
+    left: 95%;
+    top: -40%;
+}
+#fourth-content #img1{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 4vh;
+    object-fit: cover;
+    margin-left: 3vh;
+    object-position: center;
+}
+#fourth-content h3{
+    font-size: 4vh;
+    line-height: 6vh;
+}
+
+#fourth-content h4{
+    font-size: 2.3vh;
+    line-height: 3vh;
+    margin-top: 1vh;
+}
+#main-content{
+    margin-left: 3vh;
+}
+#fourth-content button{
+    width: 25vh;
+    background-color: #252525;
+    height: 8vh;
+    margin: 15vh 3vh 3vh 3vh;
+    color: white;
+    border: transparent;
+    outline: white;
+    border-radius: 10vh;
+    font-family: "Josefin Slab", serif;
+    font-weight: 900;
+    font-size: 2.5vh;
+}
+
+#fourth-content{
+    top: 5vh;
+    position: relative;
+}
+#fifth-content{
+    padding: 3vw;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35vh;
+    border-radius: 5vh;
+    display: flex;
+    margin-top: 15vh;
+    background-color: #F6F4EE;
+}
+#feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#fifth-content h2{
+    font-size: 3.5vh;
+}
+#fifth-content img{
+    width: 10vw;
+    height: 20vh;
+    border-radius: 4vh;
+    object-fit: cover;
+    margin-left: 3vh;
+    object-position: top;
+}
+#fifth-content #feed-user{
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#survey{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    width: 100%;
+    height: 50vh;
+    /* background-color: greenyellow; */
+}
+#survey h2{
+    font-size: 4.5vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#survey h5{
+    font-size: 3vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#survey button{
+    width: 25vh;
+    background-color: #252525;
+    height: 8vh;
+    color: white;
+    border: transparent;
+    outline: white;
+    border-radius: 10vh;
+    font-family: "Josefin Slab", serif;
+    font-weight: 900;
+    font-size: 2.5vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    position: relative;
+}
+#students{
+    position: relative;
+    right: 3%;
+    display: flex;
+    gap: 2vh;
+    margin-top: 5vh;
+    width: 100%;
+    height:100%;
+    /* background-color: skyblue; */
+}
+.student{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    height: 50%;
+    /* background-color: orange; */
+}
+.text-student{
+    display: flex;
+    gap: 1vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.student{
+    line-height: 3vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vh;
+}
+.student img{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    width: 30vh;
+    height: 30vh;
+}
+.student h3{
+    margin-bottom: 1vh;
+    font-size: 4vh;
+}
+.student h4{
+    font-size: 3vh;
+}
+.student h5{
+    font-size: 2.5vh;
+}
+#marque{
+    position: relative;
+    margin: 10vh;
+    margin-top: -30vh;
+    display: flex;
+    gap: 10vh;
+    left: 10%;
+}
+#marque img{
+    width: 10vh;
+    height: 10vh;
+    display: flex;
+}
+#users{
+    margin-top: 5vh;
+    display: flex;
+    gap: 6vh;
+    width: 100%;
+    height: 63%;
+    /* background-color: blue; */
+}
+#users img{
+    left: 40%;
+    top: 10vh;
+    position: relative;
+    width: 30vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    object-position: center;
+}
+.detail h3{
+    position: relative;
+    top: 11vh;
+    line-height: 3vh;
+    text-align: center;
+    left: 12vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail h4{
+    position: relative;
+    top: 11vh;
+    text-align: center;
+    left: 12vh;
+    line-height: 2vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.detail::after{
+    content:"Hired✅";
+    width: 10vh;
+    left: 24vh;
+    color: white;
+    bottom: -1.1vh;
+    position: relative;
+}
+.special::after{
+    position: relative;
+    bottom: 1vh;
+}
+#promo{
+    padding: 4vh;
+    margin-top: 5vh;
+    /* background-color: skyblue; */
+    width: 100%;
+    height: 60%;
+}
+#promo h2{
+    text-align: center;
+    font-size: 6vh;
+}
+#promo h4{
+    font-size: 3vh;
+    margin-top: 2vh;
+    text-align: center;
+}
+#promo h3{
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 3vh;
+}
+#promo img{
+    margin: 3vh;
+    margin-top: 4vh;
+    width: 7vh;
+    position: relative;
+    left: 20%;
+}
+#network{
+    width: 100%;
+    height: 100%;
+    /* background-color: skyblue; */
+}
+#network h2{
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+#network h4{
+    line-height: 4vh;
+    text-align: center;
+    font-size: 3vh;
+}
+.network-content{
+    width: 100%;
+    height: 150%;
+    display: grid;
+    margin-bottom: 0vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    /* background-color: yellow; */
+}
+.content1-network{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    
+}
+.content1-network img{
+    width: 50vh;
+    padding: 5vh;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+    border-radius: 10vh;
+}
+#network-content h2{
+    font-size: 3vh;
+}
+#user-feed{
+    margin-top: 80vh;
+    /* background-color: skyblue; */
+    width: 100%;
+    height: 100%;
+}
+#user-feed h2{
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+#user-feed h4{
+    line-height: 4vh;
+    text-align: center;
+    font-size: 3vh;
+}
+.user-content{
+    width: 100%;
+    height: 80%;
+    display: grid;
+    margin-bottom: 0vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% 50%;
+    /* background-color: yellow; */
+}
+.user-network{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    
+}
+.user-network img{
+    width: 65vh;
+    padding: 5vh;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+    border-radius: 10vh;
+}
+#user-content h2{
+    font-size: 3vh;
+}
+#enroll{
+    width: 25vh;
+    background-color: #252525;
+    height: 8vh;
+    color: white;
+    border: transparent;
+    outline: white;
+    border-radius: 10vh;
+    font-family: "Josefin Slab", serif;
+    font-weight: 900;
+    font-size: 2.5vh;
+    position: relative;
+    left: 42%;
+    top: 50%;
+}
+#footer{
+    display: flex;
+    gap: 6vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* color: white; */
+    height: 10vh;
+    top: 55%;
+    position: relative;
+    /* background-color: #4b4b4b96; */
+}
+#footer h2{
+    margin: 2vh;
+    font-size: 5vh;
+    font-family: "satisfy", cursive;
+}

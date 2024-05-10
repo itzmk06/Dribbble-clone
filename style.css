@@ -6,7 +6,8 @@
 html,body{
     width: 100%;
     height: 100%;
-    font-family: "Handlee", cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
     overflow-x: hidden;
     background-color: #F8F7F4;
 }
@@ -69,12 +70,18 @@ html,body{
     color: gray;
 }
 #search{
+    margin-top: 1vh;
     display: flex;
     width: 2.5vh;
     font-weight: 10;
     height: 2vh;
 }
 #searchText{
+    font-weight: 1900;
+    font-family: "Josefin Slab", serif;
+    margin-top: 1vh;
+    border: transparent;
+    outline: transparent;
     height: 7vh;
     border-radius: 10vh;
     background-color:#F8F7F4 ;
@@ -110,7 +117,8 @@ html,body{
 button{
     justify-content: center;
     font-size: 2.6vh;
-    font-family: "Handlee",cursive;
+    font-weight: 900;
+    font-family: "Josefin Slab", serif;
     font-weight: 950;
 }
 #content{
@@ -122,7 +130,6 @@ button{
     /* background-color: rebeccapurple; */
 }
 #first-text{
-    margin-top: 10vh;
     width: fit-content;
     height: fit-content;
     background-color: rgb(0, 255, 157);
@@ -131,7 +138,8 @@ button{
     position: relative;
     display: flex;
     padding: 2vh;
-    transform: translate(157%);
+    margin: 0 auto;
+    margin-top: 10vh;
     animation-name: color;
     animation-duration: 40s;
     animation-delay: 3s;
@@ -147,36 +155,30 @@ button{
     10%{
         background-color: #FB6D48;
         opacity:90%;
-        color: white;
     }
     20%{
         background-color: #D74B76;
         opacity:90%;
-        color: #333;
 
     }
     30%{
         background-color: #db6fe0;
         opacity:90%;
-        color: white;
 
     }    
     40%{
         background-color: #97E7E1;
         opacity:90%;
-        color: #333;
 
     }
     50%{
         background-color: #6AD4DD;
         opacity:90%;
-        color: #333;
 
     }
     60%{
         background-color: #7AA2E3;
         opacity:90%;
-        color: #333;
 
     }
     70%{
@@ -185,26 +187,20 @@ button{
     }    0%{
         background-color: #824D74;
         opacity:90%;
-        color: white;
 
     }
     80%{
         background-color: #BE7B72;
         opacity:90%;
-        color: #333;
-
-
     }
     90%{
         background-color: #FDAF7B;
         opacity:90%;
-        color: #333;
 
     }
     100%{
         background-color: #5356FF;
         opacity:90%;
-        color: white;
 
     }    
 }
@@ -271,8 +267,9 @@ first-text h3{
     margin: 1.5vh;
     /* padding: 2vh; */
     display: inline-block;
-    height: 45vh;
-    width: 40vh;
+    height: 40vh;
+    width: 30vh;
+    margin-top: 5vh;
     /* background-color: #01ff4d; */
     /* border:3px solid black; */
 }
@@ -283,6 +280,7 @@ first-text h3{
     width: 100%;
     object-fit: cover;
     object-position: center;
+
 }
 .elem #pic1,#pic2,#pic3 {
     height: 100%;
@@ -291,10 +289,10 @@ first-text h3{
     object-position: top;
 }
 .overlay2{
-    width: 40vh;
+    width: 31vh;
     height: 14vh;
     /* border-radius: 20%; */
-    border-bottom-left-radius: 9vh;
+    border-bottom-left-radius: 7vh;
     border-bottom-right-radius: 9vh;
     bottom: 0;
     background: linear-gradient(to left bottom,transparent,rgba(0, 0, 0, 0.651));
@@ -339,6 +337,7 @@ first-text h3{
     margin: 1vh;
     margin-left: 2vh;
     border-radius: 10%;
+    box-shadow: 10px 10px 10px #263f8b8a;
 }
 .block video{
     margin: 1vh;
@@ -346,6 +345,7 @@ first-text h3{
     width: 41vh;
     height: 31vh;
     border-radius: 10%;
+    box-shadow: 20px 20px 20px #263f8b8a;
 }
 #content1 h2{
     border-radius: 40vh;
